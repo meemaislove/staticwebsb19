@@ -1,0 +1,75 @@
+/* bunny @constantcullen */
+body {
+    background-color: #fbab88;
+    font-family: Nunito, sans-serif;
+}
+
+h2 {
+    color: #5e663e;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #5e663e;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar,
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #5e663e;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #5e663e;
+}
+
+#headingGroup span {
+    color: #b1945c;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background-color: #b1945c;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+.bi-emoji-sunglassess-fill {
+    color: white;
+}
+
+svg {
+    color: #f0f0f0;
+    font-size: 2.5rem;
+}
+
+footer {
+    border-color: #b1945c;
+    color: #5e663e;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
